@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        TEACHER HOME PAGE
+    </title>
+    <link rel="stylesheet" href="teacher.css" type="text/css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="bg1">
+        <nav class="navbar">
+            
+            <div class="links">
+                <a href="C:\Users\Suraj\Desktop\site\homepage-teachers.html">Lecture</a>
+                <a id="attendence" href="file:///C:/Users/Suraj/Desktop/site/tableTeacher.html">Edit/View Attendance</a>
+                <a href="file:///C:/Users/Suraj/Desktop/site/index1.html">Logout</a>
+            </div>
+        </nav>
+        <div id="logo-cont">
+            <img src="./undraw_education_f8ru.svg" >
+        </div>
+        <div class="container-area">
+            <div class="container">
+                <div class="box-title">
+                    Lecture
+                </div>
+                <form onsubmit="return validate()">
+                <div class="list1 ">
+                    <label for="sem">Semester</label>
+                    <select name="semester" id="sem" class="input-field">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div class="list2">
+                    <label for="subject">Subject</label>
+                    <select name="subjects" id="subject" class="input-field">
+                        <option value="LD">LD</option>
+                        <option value="SDM">SDM</option>
+                        <option value="COA">COA</option>
+                        <option value="OOJ">OOJ</option>
+                        <option value="MMC">MMC</option>
+                    </select>
+                </div>
+                <div class="list3">
+                    <label for="section">Section</label>
+                    <select name="semester" id="sem" class="input-field">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select>
+                </div>
+                <div class="list4">
+                    <label for="year">Year</label>
+                    <select name="year" id="year" class="input-field">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                  </div>
+                    <br>
+                    <input type="text" id="output" >
+                    <br>
+                    <input type="submit" value="Generate Link" id="btn1">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
